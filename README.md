@@ -81,7 +81,6 @@ def load_conll_data(filename, url_root=CONLL_URL_ROOT, dir_path='',
 def _df_to_xy(df):
     """Transform anerd dataframe in X, y sets."""
 
-
 def load_wikiner(path, token_only=False):
     """Load WikiNER dataset."""
 
