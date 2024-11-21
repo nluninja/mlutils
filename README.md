@@ -30,7 +30,7 @@ def from_encode_to_literal_labels(y_true, y_pred, idx2tag):
 ```
 
 ### keras utils
-Utils to load embeddings, to create LSTMs, and to memory usage 
+Utils to load embeddings, to create LSTMs, and to memory usage: the memory functions work with Tensorflow only
 
 ```python
 def get_model_memory_usage(batch_size, model):
