@@ -6,7 +6,7 @@ Function utils to load work with datasets and models
 clone the repository into your folder
 ```python
 cd myproject
-git clone
+git clone https://github.com/nluninja/mlutils.git
 ```
 import the module into your project, and call the needed utils
 
