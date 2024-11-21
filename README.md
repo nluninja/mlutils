@@ -11,7 +11,9 @@ pip install dvtm-utils
 import the module into your project, and call the needed utils
 
 ```python
-import dvtm-utils
+from dvtm-utils import kerautils, modelutils, dataio
+
+ kerautils.get_model_memory_usage(batch_size,model) 
 
 ```
 
