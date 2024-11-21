@@ -5,15 +5,18 @@ Function utils to load work with datasets and models
 ## model utils
 Utils to work with models.
 
+```python
 compute_prediction_latency(dataset, model, n_instances=-1):
     """Compute prediction latency of a model.
 
 def from_encode_to_literal_labels(y_true, y_pred, idx2tag):
     '''Transform sequences of encoded labels in sequences of string labels'''
+```
 
 ## keras utils
 Utils to load embeddings, to create LSTMs, and to memory usage 
 
+```python
 def get_model_memory_usage(batch_size, model):
     """Return memory usage of a model in MB given the batch size"""
 
@@ -39,10 +42,12 @@ def remove_flat_padding(X, y_true, y_pred, pad=0):
 
 def remove_seq_padding(X, y_true, y_pred, pad=0):
     """Remove padding predictions from list of sequences"""
+```
 
 ## I/O utils
 Utils to load datasets such as conll, wikiner.
 
+```python
 def open_read_from_url(url):
     """ Take in input an url to a .txt file and return the list of its raws"""
 
@@ -72,3 +77,4 @@ def _normalize_text(word):
 
 def itwac_preprocess_data(sentences):
     """Preprocess text in order to match with the itWac embedding vocabulary"""
+```
