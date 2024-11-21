@@ -2,7 +2,23 @@
 
 Function utils to load work with datasets and models
 
-## model utils
+## how to use it
+clone the repository into your folder
+```python
+cd myproject
+git clone
+```
+import the module into your project, and call the needed utils
+
+```python
+import mlutils
+```
+
+
+
+## utils list
+
+### model utils
 Utils to work with models.
 
 ```python
@@ -13,7 +29,7 @@ def from_encode_to_literal_labels(y_true, y_pred, idx2tag):
     '''Transform sequences of encoded labels in sequences of string labels'''
 ```
 
-## keras utils
+### keras utils
 Utils to load embeddings, to create LSTMs, and to memory usage 
 
 ```python
@@ -44,7 +60,7 @@ def remove_seq_padding(X, y_true, y_pred, pad=0):
     """Remove padding predictions from list of sequences"""
 ```
 
-## I/O utils
+### I/O utils
 Utils to load datasets such as conll, wikiner.
 
 ```python
