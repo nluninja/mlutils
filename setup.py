@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mlutils",  # Unique name on PyPI
+    name="dvtm-utils",  # Unique name on PyPI
     version="0.1.0",  # Follow semantic versioning
     author="Andrea Belli",
     author_email="andrea.belli@gmail.com",

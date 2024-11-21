@@ -3,15 +3,16 @@
 Function utils to load work with datasets and models
 
 ## how to use it
-clone the repository into your folder
-```python
-cd myproject
-git clone https://github.com/nluninja/mlutils.git
+install the library
+```
+pip install dvtm-utils
+
 ```
 import the module into your project, and call the needed utils
 
 ```python
-import mlutils
+import dvtm-utils
+
 ```
 
 
